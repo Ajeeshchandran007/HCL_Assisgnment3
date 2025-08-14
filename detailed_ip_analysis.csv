@@ -1,0 +1,8 @@
+IP Address,Total Requests,200 Responses,Other Responses,Sample Requests
+192.168.1.100,5,5,0,GET /index.html HTTP/1.1; GET /images/logo.png HTTP/1.1; GET /css/style.css HTTP/1.1
+10.0.0.50,4,4,0,POST /api/login HTTP/1.1; GET /api/dashboard HTTP/1.1; GET /api/reports HTTP/1.1
+172.16.0.100,3,3,0,GET /products.html HTTP/1.1; GET /products/category1 HTTP/1.1; GET /products/category2 HTTP/1.1
+192.168.1.101,2,1,1,GET /about.html HTTP/1.1; POST /contact/submit HTTP/1.1
+192.168.1.102,2,2,0,GET /contact.html HTTP/1.1; GET /faq.html HTTP/1.1
+10.0.0.51,2,2,0,GET /api/users HTTP/1.1; POST /api/logout HTTP/1.1
+172.16.0.101,2,2,0,GET /services.html HTTP/1.1; POST /newsletter/subscribe HTTP/1.1
