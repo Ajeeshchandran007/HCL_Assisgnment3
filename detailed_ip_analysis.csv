@@ -1,8 +1,23 @@
-IP Address,Total Requests,200 Responses,Other Responses,Sample Requests
-192.168.1.100,5,5,0,GET /index.html HTTP/1.1; GET /images/logo.png HTTP/1.1; GET /css/style.css HTTP/1.1
-10.0.0.50,4,4,0,POST /api/login HTTP/1.1; GET /api/dashboard HTTP/1.1; GET /api/reports HTTP/1.1
-172.16.0.100,3,3,0,GET /products.html HTTP/1.1; GET /products/category1 HTTP/1.1; GET /products/category2 HTTP/1.1
-192.168.1.101,2,1,1,GET /about.html HTTP/1.1; POST /contact/submit HTTP/1.1
-192.168.1.102,2,2,0,GET /contact.html HTTP/1.1; GET /faq.html HTTP/1.1
-10.0.0.51,2,2,0,GET /api/users HTTP/1.1; POST /api/logout HTTP/1.1
-172.16.0.101,2,2,0,GET /services.html HTTP/1.1; POST /newsletter/subscribe HTTP/1.1
+IP Address,Total Requests,200 Responses,Other Responses,Total Bytes,Avg Bytes/Request,Sample Requests
+192.168.1.100,5,5,0,16662,3332,GET /index.html HTTP/1.1; GET /images/logo.png HTTP/1.1; GET /css/style.css HTTP/1.1
+10.0.0.50,4,4,0,12928,3232,POST /api/login HTTP/1.1; GET /api/dashboard HTTP/1.1; GET /api/reports HTTP/1.1
+172.16.0.100,3,3,0,9216,3072,GET /products.html HTTP/1.1; GET /products/category1 HTTP/1.1; GET /products/category2 HTTP/1.1
+192.168.1.101,2,1,1,1432,716,GET /about.html HTTP/1.1; POST /contact/submit HTTP/1.1
+192.168.1.102,2,2,0,5941,2970,GET /contact.html HTTP/1.1; GET /faq.html HTTP/1.1
+10.0.0.51,2,2,0,2112,1056,GET /api/users HTTP/1.1; POST /api/logout HTTP/1.1
+172.16.0.101,2,2,0,2176,1088,GET /services.html HTTP/1.1; POST /newsletter/subscribe HTTP/1.1
+192.168.1.103,1,1,0,3456,3456,GET /support.html HTTP/1.1
+10.0.0.52,1,1,0,1024,1024,GET /api/profile HTTP/1.1
+172.16.0.102,1,1,0,4096,4096,GET /products/category3 HTTP/1.1
+192.168.1.104,1,0,1,256,256,POST /api/feedback HTTP/1.1
+10.0.0.53,1,1,0,512,512,GET /api/notifications HTTP/1.1
+172.16.0.103,1,1,0,2048,2048,GET /careers.html HTTP/1.1
+192.168.1.105,1,1,0,4096,4096,GET /terms.html HTTP/1.1
+10.0.0.54,1,0,1,128,128,POST /api/subscribe HTTP/1.1
+172.16.0.104,1,1,0,3584,3584,GET /privacy.html HTTP/1.1
+192.168.1.106,1,1,0,5120,5120,GET /blog/post1 HTTP/1.1
+10.0.0.55,1,1,0,2048,2048,GET /api/search HTTP/1.1
+172.16.0.105,1,1,0,1536,1536,GET /downloads.html HTTP/1.1
+192.168.1.107,1,0,1,64,64,POST /api/upload HTTP/1.1
+10.0.0.56,1,1,0,4096,4096,GET /api/stats HTTP/1.1
+172.16.0.106,1,1,0,2560,2560,GET /team.html HTTP/1.1
